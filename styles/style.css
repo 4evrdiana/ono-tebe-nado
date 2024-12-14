@@ -26,7 +26,6 @@ header {
 
 .header__menu-item {
     display: inline; 
-
 }
 
 .list_marker-item {
@@ -63,7 +62,6 @@ address {
     color: black;
     line-height: 24.3px;
     padding-left: 195px;   
-
 }
 
 .line-number {
@@ -240,7 +238,6 @@ address {
     height: 563px;
     text-align: center;
     padding-top: 26px;  
-
 }
 
 .card_type_book {
@@ -274,7 +271,6 @@ address {
 .more-link-more {
     border-bottom: 1px black solid;
 }
-
 
 .about {
     display: grid;
