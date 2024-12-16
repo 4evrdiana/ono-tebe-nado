@@ -5,7 +5,16 @@ body {
     min-width: 1100px;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
     margin: 0;
     padding: 0;
 }
@@ -13,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 header {
     margin: 92px 24px 92px 24px;
     background: white;
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 
@@ -36,12 +45,10 @@ header {
     text-decoration: none;
 }
 
-
 .header__links-list-item {
     padding-right: 28px;
-    letter-spacing:  0.4px;
+    letter-spacing: 0.4px;
 }
-
 
 .header__link_active {
     text-decoration: none;
@@ -52,13 +59,12 @@ header {
     padding-left: 5px;
 }
 
-
 .address-header {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: black;
     line-height: 24.3px;
-    padding-left: 193px;   
+    padding-left: 193px;
 }
 
 .line-adress {
@@ -70,7 +76,7 @@ header {
     min-width: 1100px;
     position: relative;
     background-size: cover;
-    z-index: 0;  
+    z-index: 0;
 }
 
 .cover_title {
@@ -80,17 +86,17 @@ header {
 .img_cover {
     display: block;
     background-image: url(../images/cover.jpg);
-    background-size: cover; 
+    background-size: cover;
     background-position: -135px 1px;
     width: 1100px;
     height: 757px;
     z-index: 1;
 }
-  
+
 .overlay {
     width: 100%;
     height: 100%;
-    background-color: rgb(0 0 0 / 0.6); 
+    background-color: rgb(0 0 0 / 0.6);
     z-index: 2;
 }
 
@@ -142,7 +148,7 @@ header {
 
 .cover__description-text {
     display: flex;
-    color: #FFF;
+    color: #fff;
     text-align: left;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -156,18 +162,17 @@ header {
 .bet-button {
     margin-right: 49px;
     background: transparent;
-    border: 1px solid #FFF;
+    border: 1px solid #fff;
     width: 257px;
     height: 52px;
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #FFF;
+    color: #fff;
 }
 
 .lots {
     margin: 179px 24px 146px 24px;
-    
 }
 
 .lots__heading {
@@ -184,8 +189,7 @@ header {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "lots__card-list-item-film lots__card-list-item-book lots__card-list-item-picture";
+    grid-template-areas: "lots__card-list-item-film lots__card-list-item-book lots__card-list-item-picture";
     gap: 25px;
     list-style: none;
 }
@@ -207,7 +211,6 @@ header {
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
-
 }
 
 .card {
@@ -227,7 +230,6 @@ header {
     font-weight: 400;
     line-height: 22px;
 }
-
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
@@ -266,7 +268,6 @@ header {
     text-decoration: underline;
 }
 
-
 .about {
     display: grid;
     margin-top: 146px;
@@ -279,7 +280,7 @@ header {
     column-gap: 72px;
 }
 
-  .about__logo {
+.about__logo {
     align-items: center;
     border-radius: 50%;
     background-color: black;
@@ -295,7 +296,6 @@ header {
     height: 114px;
 }
 
-
 .about__column {
     padding-top: 100px;
 }
@@ -307,7 +307,7 @@ header {
     text-transform: uppercase;
     align-content: center;
 }
-  
+
 .about__text {
     display: flex;
     padding-top: 100px;
@@ -372,16 +372,15 @@ footer {
 }
 
 .footer__social-list {
-   list-style-type: none;
-   padding-left: 130px;
+    list-style-type: none;
+    padding-left: 130px;
 }
-
 
 .footer__social-link {
     padding-left: 48px;
 }
 
 .footer__social-icon {
-width: 48px;
-height: 48px;
+    width: 48px;
+    height: 48px;
 }
